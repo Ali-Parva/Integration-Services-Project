@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.TRCard_DW"
+  DTS:DTSID="{3C831CB8-D23A-4E20-9329-8FE3E42A5266}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=TRCard_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DataWarehouse_ETL_SSIS-{3C831CB8-D23A-4E20-9329-8FE3E42A5266}LocalHost.TRCard_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
